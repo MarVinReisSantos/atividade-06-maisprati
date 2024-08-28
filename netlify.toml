@@ -1,0 +1,4 @@
+[build]
+base = "."
+command = "npm install @material-ui/icons --force;npm install @material-ui/core --force;npm run build"
+publish = "./build/"
